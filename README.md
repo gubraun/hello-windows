@@ -11,8 +11,8 @@ This is a simple example to show how to setup Synopsys Code Sight in VS Code wit
 ## Using:
 4.	Start a "Developer Command Prompt for VS 2019".
 5.	Change into the project directory.
-6.	Check if "msbuild hello-windows.sln" works.
-7.	Start VS Code from there (type "code .")
+6.	Check if `msbuild hello-windows.sln` works.
+7.	Start VS Code from there (type `code .`)
 8.	Click on the Synopsys "S" on the left to activate the Code Sight plugin. It should say it found Coverity and will then download the Rapid Scan Static and Rapid Scan SCA engines (both <100MB, so should just take a couple of minutes).
 9.	Go back to the VS Code File Explorer and open file hello-windows.cpp. In the status bar, you should see a message that Synopsys is scanning the file. Wait. It takes several minutes the first time. When it's done, you will see a "Dereferencing null pointer" defect in the source code and in the Code Sight view.
 
